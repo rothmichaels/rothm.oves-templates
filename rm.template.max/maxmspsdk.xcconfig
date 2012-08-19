@@ -11,14 +11,14 @@
 
 // Name & Version
 PRODUCT_NAME = $(PROJECT_NAME)
-PRODUCT_VERSION = 6.0.0
+PRODUCT_VERSION = 0.0.0
 
 
 // Paths
 C74SUPPORT = $(MaxSDK)/c74support
 HEADER_SEARCH_PATHS = /Developer/Headers/FlatCarbon "$(C74SUPPORT)/max-includes" "$(C74SUPPORT)/msp-includes" "$(C74SUPPORT)/jit-includes"
 FRAMEWORK_SEARCH_PATHS = "$(C74SUPPORT)/max-includes" "$(C74SUPPORT)/msp-includes" "$(C74SUPPORT)/jit-includes"
-DSTROOT = $(MaxSDK-build)
+DSTROOT = $(SRCROOT)/../..
 // (This next path is relative to DSTROOT)
 INSTALL_PATH = /
 
